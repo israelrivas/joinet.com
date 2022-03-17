@@ -14,8 +14,8 @@
 
 		public function login()
 		{
-			$data['page_tag'] = "Login - Tienda Virtual";
-			$data['page_title'] = "Tienda Virtual";
+			$data['page_tag'] = "Login - Joinet.com | Tu tienda en linea";
+			$data['page_title'] = "Joinet.com | Tu tienda en linea";
 			$data['page_name'] = "login";
 			$data['page_functions_js'] = "functions_login.js";
 			$this->views->getView($this,"login",$data);

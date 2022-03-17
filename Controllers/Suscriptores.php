@@ -19,7 +19,7 @@
 				header("Location:".base_url().'/dashboard');
 			}
 			$data['page_tag'] = "Suscriptores";
-			$data['page_title'] = "SUSCRIPTORES <small>Tienda Virtual</small>";
+			$data['page_title'] = "SUSCRIPTORES <small>Joinet.com | Tu tienda en linea</small>";
 			$data['page_name'] = "suscriptores";
 			$data['page_functions_js'] = "functions_suscriptores.js";
 			$this->views->getView($this,"suscriptores",$data);

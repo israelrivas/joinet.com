@@ -139,11 +139,11 @@
 					
 					<!-- Logo desktop -->		
 					<a href="<?= base_url(); ?>" class="logo">
-						<img src="<?= media() ?>/tienda/images/logo.png" alt="Tienda Virtual">
+						<img src="<?= media() ?>/tienda/images/logo.png" alt="Joinet.com | Tu tienda en linea">
 					</a>
 
 					<!-- Menu desktop -->
-					<div class="menu-desktop">
+					<!-- <div class="menu-desktop">
 						<ul class="main-menu">
 							<li class="active-menu">
 								<a href="<?= base_url(); ?>">Inicio</a>
@@ -169,15 +169,15 @@
 								<a href="<?= base_url(); ?>/contacto">Contacto</a>
 							</li>
 						</ul>
-					</div>	
+					</div>	 -->
 
 					<!-- Icon header -->
 					<div class="wrap-icon-header flex-w flex-r-m">
-						<div class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 js-show-modal-search">
-							<i class="zmdi zmdi-search"></i>
+						<!-- <div class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 js-show-modal-search">
+							<i class="zmdi zmdi-search"></i> -->
 						</div>
 						<?php if($data['page_name'] != "carrito" and $data['page_name'] != "procesarpago"){ ?>
-						<div class="cantCarrito icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 icon-header-noti js-show-cart" data-notify="<?= $cantCarrito; ?> ">
+						<div class="cantCarrito icon-header-item cl0 hov-cl1 trans-04 p-l-22 p-r-11 icon-header-noti js-show-cart" data-notify="<?= $cantCarrito; ?> ">
 							<i class="zmdi zmdi-shopping-cart"></i>
 						</div>
 						<?php } ?>
@@ -190,7 +190,7 @@
 		<div class="wrap-header-mobile">
 			<!-- Logo moblie -->		
 			<div class="logo-mobile">
-				<a href="<?= base_url(); ?>"><img src="<?= media() ?>/tienda/images/logo.png" alt="Tienda Virtual"></a>
+				<a href="<?= base_url(); ?>"><img src="<?= media() ?>/tienda/images/logo.png" alt="Joinet.com | Tu tienda en linea"></a>
 			</div>
 
 			<!-- Icon header -->
