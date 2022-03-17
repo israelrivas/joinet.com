@@ -225,7 +225,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 [ Top bar ]*/
 .top-bar {
   height: 40px;
-  background-color: #222;
+  background-color: #f8f9fa;
 }
 
 /*---------------------------------------------*/
@@ -233,7 +233,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   font-family: Poppins-Regular;
   font-size: 12px;
   line-height: 1.8;
-  color: #b2b2b2;
+  color: #868686;
 }
 
 
@@ -244,8 +244,8 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   line-height: 1.8;
 
   height: 100%;
-  color: #b2b2b2;
-  border-right: 1px solid rgba(255,255,255,0.3);
+  color: #868686;;
+  border-right: 1px solid rgba(0, 0, 0, 0);
 }
 
 .right-top-bar a:first-child {
@@ -253,7 +253,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 }
 
 .right-top-bar a:hover {
-  color: #6c7ae0;
+  color: #000000;
 }
 
 
@@ -634,7 +634,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 
 .fix-menu-desktop .wrap-menu-desktop {
   height: 70px;
-  background-color: #dc3545;
+  background-color: #f40405;
   box-shadow: 0 0px 3px 0px rgba(0,0,0,0.2);
   -moz-box-shadow: 0 0px 3px 0px rgba(0,0,0,0.2);
   -webkit-box-shadow: 0 0px 3px 0px rgba(0,0,0,0.2);
@@ -1228,7 +1228,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 }
 
 .item-slick1 {
-  height: calc(100vh - 40px);
+  height: 584px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -2417,7 +2417,7 @@ input.num-product::-webkit-inner-spin-button {
 
 /*---------------------------------------------*/
 .ltext-201 {
-  font-family: PlayfairDisplay-Bold;
+  font-family: Montserrat-Bold;
   font-size: 60px;
   line-height: 1.1;
   text-transform: uppercase;

@@ -135,7 +135,9 @@
 			</div>
 
 			<div class="wrap-menu-desktop">
+			
 				<nav class="limiter-menu-desktop container">
+				
 					
 					<!-- Logo desktop -->		
 					<a href="<?= base_url(); ?>" class="logo">
@@ -185,6 +187,43 @@
 				</nav>
 			</div>	
 		</div>
+
+
+		<div class="container-menu-desktop">
+			<!-- Topbar -->
+			<div class="button-bar">
+				<div class="content-topbar flex-sb-m h-full container">
+					<div class="left-top-bar">
+						<?php if(isset($_SESSION['login'])){ ?>
+						Bienvenido: <?= $_SESSION['userData']['nombres'].' '.$_SESSION['userData']['apellidos'] ?>
+						<?php } ?>
+					</div>
+
+					<div class="right-top-bar flex-w h-full">
+						<a href="#" class="flex-c-m trans-04 p-lr-25" data-toggle="modal" data-target="#modalAyuda" >
+							Help & FAQs
+						</a>
+						<?php 
+							if(isset($_SESSION['login'])){
+						?>
+						<a href="<?= base_url() ?>/dashboard" class="flex-c-m trans-04 p-lr-25">
+							Mi cuenta
+						</a>
+						<?php } 
+							if(isset($_SESSION['login'])){
+						?>
+						<a href="<?= base_url() ?>/logout" class="flex-c-m trans-04 p-lr-25">
+							Salir
+						</a>
+						<?php }else{ ?>
+						<a href="<?= base_url() ?>/login" class="flex-c-m trans-04 p-lr-25">
+							Iniciar Sesión
+						</a>
+						<?php } ?>
+					</div>
+				</div>
+			</div>
+
 
 		<!-- Header Mobile -->
 		<div class="wrap-header-mobile">
