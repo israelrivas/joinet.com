@@ -34,9 +34,9 @@
 	//const SECRET = "";
 
 	//Datos envio de correo
-	const NOMBRE_REMITENTE = "Tienda Virtual";
+	const NOMBRE_REMITENTE = "Joinet.com | Tu tienda en linea";
 	const EMAIL_REMITENTE = "no-reply@abelosh.com";
-	const NOMBRE_EMPESA = "Tienda Virtual";
+	const NOMBRE_EMPESA = "Joinet.com | Tu tienda en linea";
 	const WEB_EMPRESA = "www.abelosh.com";
 
 	const DESCRIPCION = "La mejor tienda en línea con artículos de moda.";
