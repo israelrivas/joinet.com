@@ -1,5 +1,5 @@
 <?php 
-	const BASE_URL = "http://localhost/tienda_virtual";
+	const BASE_URL = "http://localhost/joinet.com";
 	//const BASE_URL = "https://abelosh.com/tiendavirtual";
 
 	//Zona horaria
