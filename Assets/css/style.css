@@ -17,11 +17,11 @@
 	display: none;
 }
 .headerRegister, .header-primary{
-	background: #f40405;
+	background: #009688;
 	color: #FFF;
 }
 .headerUpdate{
-	background: #f40405;
+	background: #007bff;
 	color: #FFF;
 }
 .textcenter{
@@ -182,7 +182,7 @@
 	margin: 10px;
 }
 
-/* Joinet.com | Tu tienda en linea */
+/* TIENDA VIRTUAL */
 .divmetodpago label, #divCondiciones{
 	width: 100%;
 	display: flex;

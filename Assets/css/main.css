@@ -2715,8 +2715,8 @@ fieldset:disabled a.btn {
 .btn-success:not(:disabled):not(.disabled):active, .btn-success:not(:disabled):not(.disabled).active,
 .show > .btn-success.dropdown-toggle {
   color: #FFF;
-  background-color: #f40405;
-  border-color: #f40405;
+  background-color: #1e7e34;
+  border-color: #1c7430;
 }
 
 .btn-success:not(:disabled):not(.disabled):active:focus, .btn-success:not(:disabled):not(.disabled).active:focus,
@@ -2727,14 +2727,14 @@ fieldset:disabled a.btn {
 
 .btn-info {
   color: #FFF;
-  background-color: #448fd6;
-  border-color: #448fd6;
+  background-color: #17a2b8;
+  border-color: #17a2b8;
 }
 
 .btn-info:hover {
   color: #FFF;
-  background-color: #1b619b;
-  border-color: #1b588a;
+  background-color: #138496;
+  border-color: #117a8b;
 }
 
 .btn-info:focus, .btn-info.focus {
@@ -2744,8 +2744,8 @@ fieldset:disabled a.btn {
 
 .btn-info.disabled, .btn-info:disabled {
   color: #FFF;
-  background-color: #f40405;
-  border-color: #f40405;
+  background-color: #17a2b8;
+  border-color: #17a2b8;
 }
 
 .btn-info:not(:disabled):not(.disabled):active, .btn-info:not(:disabled):not(.disabled).active,
@@ -6044,7 +6044,7 @@ a.badge-dark:focus, a.badge-dark.focus {
 
 .close {
   float: right;
-  font-size: 1.6125rem;
+  font-size: 1.3125rem;
   font-weight: 700;
   line-height: 1;
   color: #000;
@@ -14922,7 +14922,7 @@ be a descendant of the grid when it is being dragged.
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #f40405;
+  background-color: #009688;
   z-index: 1030;
   padding-right: 15px;
 }
@@ -14945,7 +14945,7 @@ be a descendant of the grid when it is being dragged.
           flex: 1 0 auto;
   color: #fff;
   text-align: center;
-  font-family: 'Montserrat';
+  font-family: 'Niconne';
   padding: 0 15px;
   font-size: 26px;
   font-weight: 400;
@@ -14959,7 +14959,7 @@ be a descendant of the grid when it is being dragged.
             flex: 0 0 auto;
     display: block;
     width: 230px;
-    background-color: #f40405;
+    background-color: #007d71;
   }
 }
 
@@ -14993,7 +14993,7 @@ be a descendant of the grid when it is being dragged.
 
 .app-sidebar__toggle:focus, .app-sidebar__toggle:hover {
   color: #fff;
-  background-color: #f40405;
+  background-color: #00635a;
   text-decoration: none;
 }
 
@@ -15027,7 +15027,7 @@ be a descendant of the grid when it is being dragged.
 
 .app-nav__item:hover, .app-nav__item:focus {
   background: rgba(0, 0, 0, 0.1);
-  color: #f40405;
+  color: #f6f6f6;
 }
 
 .app-search {

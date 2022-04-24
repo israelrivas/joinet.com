@@ -20,7 +20,7 @@ class Pedidos extends Controllers{
 			header("Location:".base_url().'/dashboard');
 		}
 		$data['page_tag'] = "Pedidos";
-		$data['page_title'] = "PEDIDOS <small>Joinet.com | Tu tienda en linea</small>";
+		$data['page_title'] = "PEDIDOS <small>Tienda Virtual</small>";
 		$data['page_name'] = "pedidos";
 		$data['page_functions_js'] = "functions_pedidos.js";
 		$this->views->getView($this,"pedidos",$data);
@@ -81,8 +81,8 @@ class Pedidos extends Controllers{
 			$idpersona = $_SESSION['userData']['idpersona'];
 		}
 		
-		$data['page_tag'] = "Pedido - Joinet.com | Tu tienda en linea";
-		$data['page_title'] = "PEDIDO <small>Joinet.com | Tu tienda en linea</small>";
+		$data['page_tag'] = "Pedido - Tienda Virtual";
+		$data['page_title'] = "PEDIDO <small>Tienda Virtual</small>";
 		$data['page_name'] = "pedido";
 		$data['arrPedido'] = $this->model->selectPedido($idpedido,$idpersona);
 		$this->views->getView($this,"orden",$data);
@@ -97,7 +97,7 @@ class Pedidos extends Controllers{
 			$idpersona = $_SESSION['userData']['idpersona'];
 		}
 		$requestTransaccion = $this->model->selectTransPaypal($transaccion,$idpersona);	
-		$data['page_tag'] = "Detalles de la transacción - Joinet.com | Tu tienda en linea";
+		$data['page_tag'] = "Detalles de la transacción - Tienda Virtual";
 		$data['page_title'] = "Detalles de la transacción";
 		$data['page_name'] = "detalle_transaccion";
 		$data['page_functions_js'] = "functions_pedidos.js";

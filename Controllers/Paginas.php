@@ -18,7 +18,7 @@ class Paginas extends Controllers{
 			header("Location:".base_url().'/dashboard');
 		}
 		$data['page_tag'] = "Páginas";
-		$data['page_title'] = "PÁGINAS <small>Joinet.com | Tu tienda en linea</small>";
+		$data['page_title'] = "PÁGINAS <small>Tienda Virtual</small>";
 		$data['page_name'] = "paginas";
 		$data['page_functions_js'] = "functions_paginas.js";
 		$this->views->getView($this,"paginas",$data);
@@ -32,7 +32,7 @@ class Paginas extends Controllers{
 		if($idpost > 0){
 
 			$data['page_tag'] = "Actualizar página";
-			$data['page_title'] = "ACTUALIZAR PÁGINA <small>Joinet.com | Tu tienda en linea</small>";
+			$data['page_title'] = "ACTUALIZAR PÁGINA <small>Tienda Virtual</small>";
 			$data['page_name'] = "actualizar-paginas";
 			$data['page_functions_js'] = "functions_paginas.js";
 
@@ -55,7 +55,7 @@ class Paginas extends Controllers{
 		}
 
 		$data['page_tag'] = "Crear página";
-		$data['page_title'] = "CREAR PÁGINA <small>Joinet.com | Tu tienda en linea</small>";
+		$data['page_title'] = "CREAR PÁGINA <small>Tienda Virtual</small>";
 		$data['page_name'] = "crear-pagina";
 		$data['page_functions_js'] = "functions_paginas.js";
 		$this->views->getView($this,"crearpagina",$data);
